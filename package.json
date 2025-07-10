@@ -1,0 +1,20 @@
+{
+  "name": "s-talker",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Preetam",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ajv": "^8.13.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.15.2",
+    "nodemon": "^3.1.10"
+  }
+}
